@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Roboto;
 }
@@ -13,6 +17,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .logos{
@@ -58,4 +63,132 @@ body{
 
 .menu ion-icon{
     margin-right: 25px;
+}
+
+
+.conteudo{
+    width: 935px;
+    margin: 88px auto;
+    display: flex;
+}
+
+.posts{
+    width: 613px;
+}
+
+.stories{
+    height: 118px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    width: 66px;
+    height: 85px;
+    margin-left: 14px;
+    font-size: 12px;
+}
+
+.story-icone{
+    width: 66px;
+    height: 66px;
+    background-image: url(../assets/stories_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-foto{
+    border-radius: 100%;
+    width: 56px;
+}
+
+.seta-stories{
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -13px;
+    color: white;
+    font-size: 30px;
+}
+
+.post{
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.cabecalho{
+    height: 61px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.foto{
+    width: 612px;
+    height: 612px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 17px;
+    font-size: 25px;
+    position: relative;
+    border-top: 1px solid #dbdbdb;
+}
+
+.interacao ion-icon{
+    margin-right: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.curtidas{
+    display: flex;
+    margin: 0 17px 15px;
+    align-items: center;
+
+}
+
+.curtidas img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 5px;
 }
