@@ -1,0 +1,61 @@
+body{
+    font-family: Roboto;
+}
+
+.topo{
+    height: 54px;
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.logos img{
+    width: 103px;
+    height: 29px;
+    margin-left: 12px;
+}
+
+.borda-logos{
+    width: 1px;
+    height: 28px;
+    background-color: #dbdbdb;
+}
+
+.logos ion-icon{
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.pesquisa{
+    width: 215px;
+    height: 26px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #979797;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ion-icon{
+    margin-right: 25px;
+}
