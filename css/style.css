@@ -4,6 +4,7 @@
 
 body{
     font-family: Roboto;
+    background-color: #e5e5e5;
 }
 
 .topo{
@@ -85,6 +86,7 @@ body{
     overflow: hidden;
     position: relative;
     margin-bottom: 24px;
+    background-color: #FFFFFF;
 }
 
 .story{
@@ -130,6 +132,7 @@ body{
     border-radius: 3px;
     margin-bottom: 60px;
     overflow: hidden;
+    background-color: #FFFFFF;
 }
 
 .cabecalho{
@@ -191,4 +194,120 @@ span{
     height: 20px;
     font-size: 14px;
     margin-right: 5px;
+}
+
+.sidebar{
+    width: 293px;
+    /* background-color: blue; */
+}
+
+.sugestoes-topo{
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.sugestao-principal{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 106px;
+}
+
+.sugestao-principal img{
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
+    margin-left: 30px;
+}
+
+.nick{
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.cinza{
+    color: #8e8e8e;
+}
+
+.pravc{
+    color: #8e8e8e;
+    font-weight: 500px;
+}
+
+.ver-tudo{
+ display: flex;
+ justify-content: space-between;
+ font-size: 12px;
+ margin-left: 30px;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.sugestoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.sugestao{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.sugestao img{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-right: 11px;
+}
+
+.perfil-sugerido{
+    display: flex;
+    align-items: center;
+}
+
+.seguir{
+    font-weight: 500;
+    color: #139EF2;
+}
+
+.nome-sugerido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.sobre{
+    color: #c7c7c7;
+    font-size: 11px;
+    width: 300px;
+    height: 42px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+
+
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+
+    .posts{
+        margin: 0 auto;
+    }
+
+    .conteudo{
+        width: 100%;
+    }
 }
