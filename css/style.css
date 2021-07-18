@@ -110,6 +110,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
 }
 
 .story-foto{
@@ -160,7 +161,6 @@ body{
 
 .foto{
     width: 612px;
-    height: 612px;
 }
 
 .rodape{
@@ -198,7 +198,6 @@ span{
 
 .sidebar{
     width: 293px;
-    /* background-color: blue; */
 }
 
 .sugestoes-topo{
@@ -297,6 +296,10 @@ span{
     margin-bottom: 18px;
 }
 
+.menu-inferior{
+    display: none;
+}
+
 
 @media (max-width: 935px){
     .sidebar{
@@ -310,4 +313,64 @@ span{
     .conteudo{
         width: 100%;
     }
+}
+
+@media (max-width: 614px){
+
+    .posts{
+        width: 100%;
+    }
+
+    .seta-stories{
+        display: none;
+    }
+
+    .foto{
+        width: 100%;
+    }
+
+    .stories{
+        background-color: #e5e5e5;
+        border: none;
+        margin-bottom: 18px;
+    }
+
+    .conteudo{
+        margin-top: 71px;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .some{
+        display: none;
+    }
+
+    .topo{
+        justify-content: space-between;
+    }
+
+    .logos{
+        margin-left: 22px;
+        width: calc(50% + 35px);
+        justify-content: space-between;
+    }
+
+    .menu-inferior{
+        display: flex;
+        height: 54px;
+        width: 100%;
+        background-color: #FFFFFF;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border: 1px solid #dbdbdb;
+        font-size: 20px;
+        padding: 22px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
 }
